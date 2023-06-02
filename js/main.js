@@ -22,6 +22,7 @@ button1.addEventListener("click", () => {
             ${adres.postcode} <br/>
             ${adres.country} <br/>
             ${adres.country_code} <br/>
+            Номер дома ${adres.house_number} <br/>
             `
         })
         .catch(() => {
